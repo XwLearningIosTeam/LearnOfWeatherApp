@@ -14,6 +14,9 @@
 		693BBA321DB8A00E00A3B256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693BBA301DB8A00E00A3B256 /* LaunchScreen.storyboard */; };
 		693BBA3D1DB8A00E00A3B256 /* WeatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 693BBA3C1DB8A00E00A3B256 /* WeatherAppTests.m */; };
 		693BBA481DB8A00E00A3B256 /* WeatherAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 693BBA471DB8A00E00A3B256 /* WeatherAppUITests.m */; };
+		693BBA591DB8AF9500A3B256 /* NSString+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 693BBA571DB8AF9500A3B256 /* NSString+Color.m */; };
+		693BBA621DB8B53500A3B256 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 693BBA611DB8B53500A3B256 /* UIView+SetRect.m */; };
+		693BBA661DB8C36B00A3B256 /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 693BBA651DB8C36B00A3B256 /* NSString+File.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,13 @@
 		693BBA431DB8A00E00A3B256 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		693BBA471DB8A00E00A3B256 /* WeatherAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherAppUITests.m; sourceTree = "<group>"; };
 		693BBA491DB8A00E00A3B256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693BBA551DB8AF9500A3B256 /* AppColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppColor.h; sourceTree = "<group>"; };
+		693BBA561DB8AF9500A3B256 /* NSString+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Color.h"; sourceTree = "<group>"; };
+		693BBA571DB8AF9500A3B256 /* NSString+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Color.m"; sourceTree = "<group>"; };
+		693BBA601DB8B53500A3B256 /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		693BBA611DB8B53500A3B256 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		693BBA641DB8C36B00A3B256 /* NSString+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
+		693BBA651DB8C36B00A3B256 /* NSString+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,9 @@
 				693BBA2E1DB8A00E00A3B256 /* Assets.xcassets */,
 				693BBA301DB8A00E00A3B256 /* LaunchScreen.storyboard */,
 				693BBA331DB8A00E00A3B256 /* Info.plist */,
+				693BBA631DB8C35200A3B256 /* File */,
+				693BBA5A1DB8B06400A3B256 /* SetRect */,
+				693BBA581DB8AF9500A3B256 /* Color */,
 				693BBA221DB8A00E00A3B256 /* Supporting Files */,
 			);
 			path = WeatherApp;
@@ -135,6 +148,35 @@
 				693BBA491DB8A00E00A3B256 /* Info.plist */,
 			);
 			path = WeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		693BBA581DB8AF9500A3B256 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				693BBA551DB8AF9500A3B256 /* AppColor.h */,
+				693BBA561DB8AF9500A3B256 /* NSString+Color.h */,
+				693BBA571DB8AF9500A3B256 /* NSString+Color.m */,
+			);
+			name = Color;
+			path = "../../../YoCelsius-master/YoCelsius/Color";
+			sourceTree = "<group>";
+		};
+		693BBA5A1DB8B06400A3B256 /* SetRect */ = {
+			isa = PBXGroup;
+			children = (
+				693BBA601DB8B53500A3B256 /* UIView+SetRect.h */,
+				693BBA611DB8B53500A3B256 /* UIView+SetRect.m */,
+			);
+			name = SetRect;
+			sourceTree = "<group>";
+		};
+		693BBA631DB8C35200A3B256 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				693BBA641DB8C36B00A3B256 /* NSString+File.h */,
+				693BBA651DB8C36B00A3B256 /* NSString+File.m */,
+			);
+			name = File;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +313,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				693BBA2A1DB8A00E00A3B256 /* ViewController.m in Sources */,
+				693BBA661DB8C36B00A3B256 /* NSString+File.m in Sources */,
+				693BBA591DB8AF9500A3B256 /* NSString+Color.m in Sources */,
 				693BBA271DB8A00E00A3B256 /* AppDelegate.m in Sources */,
+				693BBA621DB8B53500A3B256 /* UIView+SetRect.m in Sources */,
 				693BBA241DB8A00E00A3B256 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
