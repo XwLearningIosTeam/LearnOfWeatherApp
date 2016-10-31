@@ -116,6 +116,7 @@
 				693BBA2E1DB8A00E00A3B256 /* Assets.xcassets */,
 				693BBA301DB8A00E00A3B256 /* LaunchScreen.storyboard */,
 				693BBA331DB8A00E00A3B256 /* Info.plist */,
+				695256D51DC6D95B00C43BC4 /* CustomView */,
 				693BBA631DB8C35200A3B256 /* File */,
 				693BBA5A1DB8B06400A3B256 /* SetRect */,
 				693BBA581DB8AF9500A3B256 /* Color */,
@@ -177,6 +178,13 @@
 				693BBA651DB8C36B00A3B256 /* NSString+File.m */,
 			);
 			name = File;
+			sourceTree = "<group>";
+		};
+		695256D51DC6D95B00C43BC4 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
