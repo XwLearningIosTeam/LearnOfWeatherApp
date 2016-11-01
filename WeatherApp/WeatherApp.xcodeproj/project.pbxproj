@@ -17,6 +17,10 @@
 		693BBA591DB8AF9500A3B256 /* NSString+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 693BBA571DB8AF9500A3B256 /* NSString+Color.m */; };
 		693BBA621DB8B53500A3B256 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 693BBA611DB8B53500A3B256 /* UIView+SetRect.m */; };
 		693BBA661DB8C36B00A3B256 /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 693BBA651DB8C36B00A3B256 /* NSString+File.m */; };
+		695256D81DC6E45400C43BC4 /* FadeBlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 695256D71DC6E45400C43BC4 /* FadeBlackView.m */; };
+		695256DB1DC6E76A00C43BC4 /* UpdatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 695256DA1DC6E76A00C43BC4 /* UpdatingView.m */; };
+		695256DE1DC6EBEF00C43BC4 /* EmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 695256DD1DC6EBEF00C43BC4 /* EmitterLayerView.m */; };
+		695256E11DC6F42700C43BC4 /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 695256E01DC6F42700C43BC4 /* SnowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,15 @@
 		693BBA611DB8B53500A3B256 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
 		693BBA641DB8C36B00A3B256 /* NSString+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
 		693BBA651DB8C36B00A3B256 /* NSString+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
+		695256D61DC6E45400C43BC4 /* FadeBlackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeBlackView.h; sourceTree = "<group>"; };
+		695256D71DC6E45400C43BC4 /* FadeBlackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeBlackView.m; sourceTree = "<group>"; };
+		695256D91DC6E76A00C43BC4 /* UpdatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdatingView.h; sourceTree = "<group>"; };
+		695256DA1DC6E76A00C43BC4 /* UpdatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdatingView.m; sourceTree = "<group>"; };
+		695256DC1DC6EBEF00C43BC4 /* EmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLayerView.h; sourceTree = "<group>"; };
+		695256DD1DC6EBEF00C43BC4 /* EmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLayerView.m; sourceTree = "<group>"; };
+		695256DF1DC6F42700C43BC4 /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
+		695256E01DC6F42700C43BC4 /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
+		69FA3A281DC72BFC00102C3D /* AddedFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddedFont.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +129,7 @@
 				693BBA2E1DB8A00E00A3B256 /* Assets.xcassets */,
 				693BBA301DB8A00E00A3B256 /* LaunchScreen.storyboard */,
 				693BBA331DB8A00E00A3B256 /* Info.plist */,
+				69FA3A261DC72B1500102C3D /* AddFonts */,
 				695256D51DC6D95B00C43BC4 /* CustomView */,
 				693BBA631DB8C35200A3B256 /* File */,
 				693BBA5A1DB8B06400A3B256 /* SetRect */,
@@ -183,8 +197,24 @@
 		695256D51DC6D95B00C43BC4 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				695256D61DC6E45400C43BC4 /* FadeBlackView.h */,
+				695256D71DC6E45400C43BC4 /* FadeBlackView.m */,
+				695256D91DC6E76A00C43BC4 /* UpdatingView.h */,
+				695256DA1DC6E76A00C43BC4 /* UpdatingView.m */,
+				695256DC1DC6EBEF00C43BC4 /* EmitterLayerView.h */,
+				695256DD1DC6EBEF00C43BC4 /* EmitterLayerView.m */,
+				695256DF1DC6F42700C43BC4 /* SnowView.h */,
+				695256E01DC6F42700C43BC4 /* SnowView.m */,
 			);
 			name = CustomView;
+			sourceTree = "<group>";
+		};
+		69FA3A261DC72B1500102C3D /* AddFonts */ = {
+			isa = PBXGroup;
+			children = (
+				69FA3A281DC72BFC00102C3D /* AddedFont.h */,
+			);
+			name = AddFonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,11 +350,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695256DB1DC6E76A00C43BC4 /* UpdatingView.m in Sources */,
 				693BBA2A1DB8A00E00A3B256 /* ViewController.m in Sources */,
 				693BBA661DB8C36B00A3B256 /* NSString+File.m in Sources */,
+				695256DE1DC6EBEF00C43BC4 /* EmitterLayerView.m in Sources */,
 				693BBA591DB8AF9500A3B256 /* NSString+Color.m in Sources */,
+				695256E11DC6F42700C43BC4 /* SnowView.m in Sources */,
 				693BBA271DB8A00E00A3B256 /* AppDelegate.m in Sources */,
 				693BBA621DB8B53500A3B256 /* UIView+SetRect.m in Sources */,
+				695256D81DC6E45400C43BC4 /* FadeBlackView.m in Sources */,
 				693BBA241DB8A00E00A3B256 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
