@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "SnowView.h"
 #import "UIView+SetRect.h"
+#import "UIView+GlowView.h"
+#import "CALayer+MaskLayer.h"
 #import "AddedFont.h"
 
 @interface UpdatingView : UIView
